@@ -1,0 +1,53 @@
+[ 
+   { 
+      "title":"Running",
+      "Subtitle":"Step by step guideline",
+      "img": "img/running.png",
+      "desc": "Physical exercise is important for maintaining physical fitness and can contribute to maintaining a healthy weight, regulating the digestive system, building and maintaining healthy bone density, muscle strength, and joint mobility, promoting physiological well-being, reducing surgical risks, and strengthening the immune system. Some studies indicate that exercise may increase life expectancy and the overall quality of life.",
+      "descEN": "1. First point to follow.",
+      "desc2EN": "2.Second point to follow",
+      "desc3EN": "3.Third point to follow",
+      "descAR" : "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. كان هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي ، عندما أخذت طابعة غير معروفة لوحًا من النوع وتدافعت عليه لعمل كتاب عينة."
+   },
+   { 
+      "title":"Swimming",
+      "Subtitle":"Step by step guideline",
+      "img": "img/swimming.png",
+      "desc": "Physical exercise is important for maintaining physical fitness and can contribute to maintaining a healthy weight, regulating the digestive system, building and maintaining healthy bone density, muscle strength, and joint mobility, promoting physiological well-being, reducing surgical risks, and strengthening the immune system. Some studies indicate that exercise may increase life expectancy and the overall quality of life.",
+      "descEN": "1. First point to follow.",
+      "desc2EN": "2.Second point to follow",
+      "desc3EN": "3.Third point to follow",
+      "descAR" : "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. كان هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي ، عندما أخذت طابعة غير معروفة لوحًا من النوع وتدافعت عليه لعمل كتاب عينة."
+   },
+   { 
+      "title":"Cycling",
+      "Subtitle":"Step by step guideline",
+      "img": "img/cycling.png",
+      "desc": "Physical exercise is important for maintaining physical fitness and can contribute to maintaining a healthy weight, regulating the digestive system, building and maintaining healthy bone density, muscle strength, and joint mobility, promoting physiological well-being, reducing surgical risks, and strengthening the immune system. Some studies indicate that exercise may increase life expectancy and the overall quality of life.",
+      "descEN": "1. First point to follow.",
+      "desc2EN": "2.Second point to follow",
+      "desc3EN": "3.Third point to follow",
+      "descAR" : "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. كان هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي ، عندما أخذت طابعة غير معروفة لوحًا من النوع وتدافعت عليه لعمل كتاب عينة."
+   },
+   { 
+      "title":"Jogging",
+      "Subtitle":"Step by step guideline",
+      "img": "img/jogging.png",
+      "desc": "Physical exercise is important for maintaining physical fitness and can contribute to maintaining a healthy weight, regulating the digestive system, building and maintaining healthy bone density, muscle strength, and joint mobility, promoting physiological well-being, reducing surgical risks, and strengthening the immune system. Some studies indicate that exercise may increase life expectancy and the overall quality of life.",
+      "descEN": "1. First point to follow.",
+      "desc2EN": "2.Second point to follow",
+      "desc3EN": "3.Third point to follow",
+      "descAR" : "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. كان هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي ، عندما أخذت طابعة غير معروفة لوحًا من النوع وتدافعت عليه لعمل كتاب عينة."
+   },
+   { 
+      "title":"Hiking",
+      "Subtitle":"Step by step guideline",
+      "desc": "Physical exercise is important for maintaining physical fitness and can contribute to maintaining a healthy weight, regulating the digestive system, building and maintaining healthy bone density, muscle strength, and joint mobility, promoting physiological well-being, reducing surgical risks, and strengthening the immune system. Some studies indicate that exercise may increase life expectancy and the overall quality of life.",
+      "img": "img/hiking.png",
+      "descEN": "1. First point to follow.",
+      "desc2EN": "2.Second point to follow",
+      "desc3EN": "3.Third point to follow",
+      "descAR" : "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. كان هو النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر الميلادي ، عندما أخذت طابعة غير معروفة لوحًا من النوع وتدافعت عليه لعمل كتاب عينة."
+   }
+   
+]

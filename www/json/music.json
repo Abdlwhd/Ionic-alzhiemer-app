@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Sample Song 1",
+        "url":"mp3/sample1.mp3",
+        "artist": "artist 1",
+        "img": "img/ionic.png",
+        "isMusic" : true
+    },
+    {
+        "title": "Sample Song 2",
+        "url":"mp3/sample2.mp3",
+        "artist": "artist 2",
+        "img": "img/music2.png",
+        "isMusic" : true
+    },
+    {
+        "title": "Sample Song 3",
+        "url":"mp3/sample3.mp3",
+        "artist": "artist 3",
+        "img": "img/music2.png",
+        "isMusic" : true
+    },
+    {
+        "title": "Sample Song 4",
+        "url":"mp3/sample4.mp3",
+        "artist": "artist 2",
+        "img": "img/music2.png",
+        "isMusic" : true
+    }
+
+]
