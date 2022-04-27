@@ -1,0 +1,58 @@
+.az-body.arabic {
+
+ 	.menu .scroll-content.scroll-content-false {
+ 		direction : rtl;
+ 	}
+
+ 	form {
+		&:not(.az-direction-initial) {
+			direction : rtl;
+		}
+	}
+	.az-error.keep-right {
+		left : 30px;
+		right : auto;
+	}
+	.az-error {
+		&:not(.az-direction-initial) {
+			left : 4px;
+			right : auto;
+		}
+		.ion-chevron-down {
+			left : 8px;
+			right : auto;
+		}
+	}
+
+	.az-header-wrapper {
+		direction : rtl;
+	}
+
+	.repeat-content-wrapper {
+		direction : rtl;
+	}
+	.az-direction-rtl {
+		direction : rtl;
+	}
+	.az-chevron {
+		right: auto;
+		left: 8px;
+		transform: rotate(180deg);
+	}
+	.az-alert {
+		direction: rtl;
+	}
+	.header-back-button {
+		transform: rotate(180deg);
+	}
+	.az-align-right {
+		text-align: left;
+	}
+
+}
+.platform-android.arabic .repeat-content-wrapper {
+	.checkbox-square .checkbox-icon:after {
+		top: 16%;
+	    left: 40%;
+	}
+}

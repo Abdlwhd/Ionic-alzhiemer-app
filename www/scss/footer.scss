@@ -1,0 +1,68 @@
+.az-body {
+    .footer-wrapper {
+        width: 100%;
+        height: 48px;
+        position: absolute;
+        bottom: 0%;
+        background: $light-grey;
+        z-index: 4;
+        padding: 0px;
+        direction : initial;
+        text-align: center;
+        .slider-icons {
+            height : 100%;
+
+            .col-25 {
+                height : 100%;
+            }
+            .footer-icon {
+                padding:2.5px;
+                color : $blue;
+                font-size : 22px;
+            }
+        }
+        
+    }
+
+    .slider-icons .col.col-25.col-center.active {
+        background: $blue;
+        border-top : 2px solid #fff;
+        .footer-icon {
+            color : $light-grey;
+        }
+        .label{
+            color: $light-grey;
+            font-weight: bold;
+        }
+    }
+    .slider-icons .label{
+        margin-top: 0px;
+        font-size: 12px;
+        color: $blue;
+        line-height : 12px;
+        padding: 0px 2px;
+    }
+
+    .chevrons {
+        >div {
+            position: absolute;
+            bottom: 0px;
+            width: 20px;
+            height: 64px;
+            text-align: center;
+            display:table;
+            background: $light;
+            opacity: .5;
+        }
+        .chevron-left {
+            left: 0px;
+        }
+        .chevron-right {
+            right: 0px;
+        }
+        .icon {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+}

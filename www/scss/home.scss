@@ -1,0 +1,53 @@
+.az-msg {
+	padding: 10px 5px;
+	border: 1px solid #ededed;
+	margin: 10px;
+	border-radius: 2px;
+	font-size: 16px;
+	.az-label {
+		color : #aaaaaa;
+	}
+	.az-value {
+		color : #444444;
+	}
+}
+.az-progress-bar {
+	height: 10px;
+	background-color: $balanced;
+}
+
+.az-language-change-wrapper {
+	background: transparent;
+	width: auto;
+	height: auto;
+	position: absolute;
+	right: calc(10% + 8px);
+	top: 8px;
+	.az-header-icon-img {
+		background: $blue;
+		width: 32px;
+		border-radius: 50%;
+		padding: 8px !important;
+		box-shadow: 0 0 8px 0px #cdcdcd;
+	}
+}
+.az-btns-wrapper {
+	margin-top: calc(50vh - 228px);
+}
+.row.az-wrapper {
+	padding: 8px;
+	.az-item {
+		padding: 8px;
+		text-align: center;
+		.az-img {
+			font-size: 48px;
+			img {
+				height: 128px;
+				width: 128px;
+			}
+		}
+		.az-label {
+			color: #444444;
+		}
+	}
+}

@@ -1,0 +1,48 @@
+.az-body {	
+	.side-menu-ion-content {
+		background: $dark-yellow;
+		.az-logo {
+			width: 50%;
+		    height: auto;
+		    padding: 12px 12px;
+		}
+		.scroll {
+			height : 100%;
+		}
+		.menu-item-wrapper.scroll-view.scroll-y {
+		    height: calc(100% - 180px);
+		    img {
+				height : 32px;
+				vertical-align: bottom;
+		    }
+		}
+		.bottom-line {
+			width: 90%;
+		    margin-left: 5%;
+		    height: 1px;
+		    background : $light;
+		}
+		.home-footer {
+			font-size : 20px;
+			color : $light;
+		}
+		.side-menu-item {
+			padding : 3.25%;
+			.az-label {
+				color : $light;
+			}
+			.icon {
+				color : $blue;
+				font-size : 28px;
+			}
+		}
+	}
+	.side-menu-page {
+		padding : 10px;
+		background : #f8f8f8;
+	}
+	.open-close-chevron {
+		position : absolute;
+		right : 20px;
+	}
+}

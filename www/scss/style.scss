@@ -1,0 +1,862 @@
+.az-err-msg {
+	color:red;
+	padding:10px 0px;
+}
+.button.button-block.button-positive{
+
+	&.az-submit-button {
+		background-color: $red;
+		color: $light;
+	}
+	&.az-button-activate {
+		background-color: $balanced;
+	}
+
+}
+
+.az-body {
+	.az-light-bg {
+		&.input {
+			background: #fff;
+		}
+	}
+	.az-underline {
+		text-decoration: underline;
+	}
+	.az-view {
+    	background: transparent;
+	}
+	a {
+		text-decoration:none;
+		color : inherit;
+		&.az-link {
+			text-decoration : underline;
+			color : $blue;
+		}
+	}
+	.az-link {
+		text-decoration : underline;
+		color : $blue;
+	}
+	.row, .col {
+		padding : 0px;
+	}
+	.az-margin-auto {		
+    	background-size: 100% 100%;
+		margin:auto;
+	}
+	.row + .row {
+		margin-top:0px;
+	}
+	.az-justify {
+		text-align:justify;
+	}
+	.az-align-center {
+		text-align:center;
+	}
+	.az-align-vertically-middle {
+		display : table;
+		width : 100%;
+
+		.middle-content {
+			display:table-cell;
+			vertical-align:middle;
+		}
+	}
+	.az-blue-color {
+		color : $blue; 
+	}
+	.az-green-color {
+		color : $green;
+	}
+	.az-red-color {
+		color : $red;
+	}
+	.az-dark-color {
+		color : $dark-grey;
+	}
+	.az-red-color {
+		color : $red;
+	}
+	.light-font {
+		color : $light;
+	}
+	.az-relative {
+		position:relative;
+	}
+	.az-absolute {
+		position:absolute;
+	}
+	.no-padding {
+		padding:0px;
+	}
+	.zero-opacity {
+		opacity:0;
+	}
+	.az-view {
+		top: 48px;
+		height: calc(100% - 96px);
+	}
+	.az-overflow-scroll {
+		overflow : scroll;
+		max-height:100%;
+	}
+	.input {
+		background:#f8f8f8;
+		border-radius:4px;
+		padding:0px 4px
+	}
+	.az-combo-box {
+		display: block;
+	    height: 34px;
+	    color: #111;
+	    font-size: 14px;
+	    line-height: 16px;
+	}
+	.input:focus{
+	    box-shadow: 0 0 8px #aaa;
+	    -webkit-box-shadow: 0 0 8px #aaa;
+	}
+	.az-light-transparent {
+	 background: rgba(255,255,255,.25);
+	}
+    .invalid-info {
+    	text-align : center;
+    	color : $red;
+    }
+    .button {
+        border-color: transparent;
+	    background-color: #ccc;
+	    color: $blue;
+	    position: relative;
+	    display: inline-block;
+	    margin: 0;
+	    padding: 0 12px;
+	    min-width: 48px;
+	    min-height: 32px;
+	    border-width: 1px;
+	    border-style: solid;
+	    border-radius: 4px;
+	    vertical-align: top;
+	    text-align: center;
+	    text-overflow: ellipsis;
+	    font-size: 16px;
+	    line-height: 16px;
+		cursor: pointer;
+		padding: 12px;
+		margin: 16px;
+		width: -webkit-fill-available;
+
+    }
+    .button-group-dual {
+    	.button {
+    	    min-width: 120px;
+    	}
+    }
+    .button.activated:not(.not-activate) {
+    	background : $dark-blue !important;
+    	color : $light !important;
+    }
+    input[type=file] {
+    	line-height: inherit;
+	}
+	.error-input {
+		border: 1px solid $red !important;
+		border-radius : 4px;
+	}
+	.remove-default-button-style {
+		background: transparent;
+    	border: none;
+	}
+	.az-text-align-initial {
+		text-align : initial;
+	}
+	.page-transition-opacity {
+	    @include animation-name(pageTransitionOpacity);
+	    @include animation-duration(3000ms);
+	    @include animation-timing-function(ease-in-out);
+	}
+	@-webkit-keyframes pageTransitionOpacity {
+	  0%{
+	   opacity: 0;
+	 }
+	 25%{
+	   opacity: 0;
+	 }
+	 50%{
+	   opacity: 0.33;
+	 }
+	 75%{
+	   opacity: 0.66;
+	 }
+	 100%{
+	   opacity: 1;
+	 }
+	}
+
+	@keyframes pageTransitionOpacity {
+	  0%{
+	   opacity: 0;
+	 }
+	 25%{
+	   opacity: 0;
+	 }
+	 50%{
+	   opacity: 0.33;
+	 }
+	 75%{
+	   opacity: 0.66;
+	 }
+	 100%{
+	   opacity: 1;
+	 }
+	}
+	.mock-placeholder {
+	    position: absolute;
+	    top: 10px;
+	    font-size: 12px;
+	    color: #aaa;
+	    left: 7px;
+	    right: auto;
+	    white-space: nowrap;
+ 	}
+ 	.modal-mock-placeholder {
+ 		font-size: 12px;
+	    color: #aaa;
+	    right: auto;
+	    white-space: nowrap;
+	    background: #eee;
+	    height: 34px;
+	    line-height: 32px;
+	   	&.light-bg {
+	    	background : #fff;
+	    }
+ 	}
+ 	.light-bg {
+ 		background:$light;
+ 	}
+ 	.pattern-bg {
+ 		background : #efefef;
+ 	}
+
+ 	.az-loader.spinner.spinner-bubbles {
+ 		stroke: $blue;
+ 		fill: $blue;
+ 	}
+
+ 	.loading-container .loading {
+	 	padding: 4px;
+	    opacity: .66;
+	    background: #fff;
+	    border-radius: 50%;
+	    height: 36px;
+	    width: 36px;
+ 	}
+ 	.az-alert {
+ 		.popup {
+ 			border-radius: 4px;
+ 			.popup-head {
+ 				background: $blue;
+    			border-radius: 4px 4px 0px 0px;
+    			.popup-title {
+    				color : $light;
+    			}
+			}
+			
+ 			.button {
+ 				background : #ccc;
+ 				margin : 4px;
+ 			}
+ 		}
+
+ 		&.az-confirm-alert {
+ 			.popup {
+ 				.popup-buttons {
+ 					padding : 0px;
+		 			.button {
+		 				background : transparent;
+		 				margin : 4px;
+		 				color : $blue;
+		 				text-decoration : underline;
+		 				font-size : 64px;
+		 			}
+		 		}
+	 		}
+ 		}
+ 	}
+ 	.az-error {
+ 		position: absolute;
+	    right: 4px;
+	    top: 0px;
+	    height: 40px;
+	    .F-24 {
+	    	position : relative;
+	    	top: 6px;
+	    	&.top-8 {
+	    		top: 8px !important;
+	    	}
+	    	&.az-input-box-error {
+	    		top: 4px;
+	    	}
+	    	&.T-10 {
+	    		top: 10px;
+	    	}
+	    }
+	    .ion-chevron-down {
+	    	font-size: 14px;
+	    	top: 14px;
+	    	right: 8px;
+	    }
+ 	}
+ 	.az-mock-placeholder {
+ 		padding : 8px 4px;
+ 		color : #aaa;
+ 	}
+ 	.az-error.keep-right {
+ 		right : 30px;
+ 	}
+ 	.align-middle-wrapper {
+ 		 display: inline-block;
+ 		 span {
+ 		 	display: inline-block;
+    		vertical-align: middle;
+ 		 }
+ 	}
+ 	.RTL {
+ 		direction : rtl;
+ 	}
+ 	.az-left-align {
+ 		text-align : left;
+ 	}
+ 	.az-bold {
+ 		font-weight : bold;
+ 	}
+ 	.no-decoration {
+ 		text-decoration: none;
+    	color: inherit;
+ 	}
+ 	.expand {
+ 		height : auto;
+ 		min-height : 2px;
+ 	}
+ 	.collapse {
+ 		height : 2px;
+ 		min-height : 2px;
+ 	}
+
+	.repeat-content-wrapper {
+		overflow: hidden;
+		.repeat-content {
+			padding : 5px 2.5px;
+			margin : 5px 2.5px;
+			background : #f8f8f8;
+			position : relative;
+			&.no-margin {
+				margin : 0px !important;
+			}
+			.proceed-button {
+
+				padding: 2px 4px;
+				font-size : 12px;
+				border-radius: 2px;
+				color : $light;
+				width: 106px;
+    			text-align: center;
+				&.open {
+					background : #009688
+				}
+				&.close {
+					background : #FF5252
+				}
+			}
+		}
+		.repeat-content:nth-child(even){
+			background : #eee;
+		}
+	}
+
+	.az-header-bar {
+		text-align : center;
+		.az-modal-header {
+		    font-weight: 700;
+    		width: 100%;
+    		padding: 5px;
+    		font-size: 18px;
+		}
+	}
+	.az-form {
+    	padding: 5px;
+    	margin: 5px;
+    	border-radius: 4px;
+		.icon {
+			font-size : 20px;
+			color: $blue;;
+		}
+		&.no-border {
+			border : none;
+		}
+	}
+	.az-transparent {
+		background : transparent !important;
+	}
+	.az-img-buttons {
+		width : 64px;
+	}
+
+	.az-button-wrapper {
+		margin: 10px 0px;
+	}
+
+	.az-overflow-hidden-x {
+		overflow-x : hidden;
+	}
+	.item-slider-icon {
+		transition: transform .5s ease-in-out;
+		&.invert-chevron {
+			transform : rotate(180deg);
+		}
+	}
+    .az-light-color {
+    	color : $light;
+    }
+    .az-thumbnail-image-wrapper {
+    	position: relative;
+	    display: inline-flex;
+	    width: 24%;
+	    height: 24vw;
+	    margin: .5%;
+
+	    .thumbnail-delete-icon{
+		    color: $red;
+		    position: absolute;
+		    right: 0%;
+		    top: 0%;
+		    opacity: 0.75;
+		    font-size: 24px;
+	    }
+    }
+    .close-zoom-modal {
+    	text-align: center;
+	    position: absolute;
+	    font-size: 24px;
+	    right: 0px;
+	    padding: 0px;
+	    color: #fff;
+	    z-index: 10;
+	    background: $red !important;
+	    min-width: 44px;
+	    min-height: 44px;
+	    border-radius: 50%;
+	    display: table;
+	    .close-icon {
+	    	font-size : 32px;
+	    	color : $light;
+	    	display : table-cell;
+	    	vertical-align : middle;
+	    }
+    }
+    .az-vertical-align-top {
+    	vertical-align : top;
+    }
+    .az-vertical-align-super {
+    	vertical-align : super;
+    }
+
+    .az-inline-block {
+    	display : inline-block;
+    }
+    .az-border-left {
+    	border-left : 1px solid #444;
+    }
+    .az-display-table {
+    	display : table;
+    }
+    .az-table-cell-align-middle {
+    	display : table-cell;
+    	vertical-align : middle;
+    }
+    .az-align-middle {
+    	vertical-align : middle;
+    }  
+    .az-inline-block {
+    	display : inline-block;
+    }
+
+	.checkbox-icon.invalid-submit::before {
+	    border-color: $red;
+	}
+
+	.az-hide-visibility {
+		visibility : hidden;
+	}
+	.az-header-wrapper {
+ 		height : 48px;
+ 		background : $dark-yellow;
+ 		color: $blue;
+    	font-size: 26px;
+    	.img-wrapper {
+    		vertical-align : bottom;
+    	}
+ 		.header-label {
+		 	color: $blue;
+		    font-size: 18px;
+		    padding: 2.5px;
+		    display: inline-block;
+		    vertical-align: middle;
+		    font-weight: bold;
+ 		}
+ 	}
+
+ 	.pull-down {
+ 		top : 44px;
+ 		z-index: -1;
+ 		height: calc(100% - 88px);
+ 	}
+ 	.header-logout {
+	 	position: absolute;
+	    right: 40px;
+    	top: 10px;
+	    text-align: center;
+ 	}
+ 	.active .modal-backdrop-bg {
+ 		opacity : 0.9 !important;
+ 	}
+ 	.az-inline-wrapper {
+ 		.az-inline-icon {
+ 			display : inline-block;
+ 			font-size : 24px;
+ 			vertical-align: middle;
+ 			padding : 0px 2.5px;
+ 			color : $blue;
+ 			width : 28px;
+ 			text-align : center;
+ 		}
+ 		.az-inline-text {
+ 			vertical-align: middle;
+ 			display : inline-block;
+ 			width: calc(100% - 34px);
+ 			&.az-initial-width {
+ 				width : initial;
+ 			}
+ 		}
+ 	}
+ 	.az-ellipsis {
+ 		text-overflow: ellipsis;
+    	white-space: nowrap;
+    	overflow: hidden;
+    }
+    .az-round-button {
+	   	height: 72px;
+	    width: 72px;
+	    border-radius: 50%;
+	    font-size: 32px;
+	    box-shadow: 0 0 4px 0 #ccc;
+	    color: $blue;
+    }
+    .az-popover {
+		.options {
+			margin: 0px 5px;
+    		padding: 5px;
+    		position: relative;
+    		border-bottom: 1px solid #eee;
+
+    		.az-inline-icon {
+    			display: inline-block;
+    			font-size: 28px;
+    			color: $blue;
+    			&.az-grouped-icon {
+    				vertical-align: middle;
+    			}
+    		}
+    		.az-inline-text {
+    			display: inline-block;
+			    font-size: 14px;
+			    position: absolute;
+			    top: 10px;
+			    left: 36px;
+			    &.name {
+			        overflow: scroll;
+    				width: calc(100% - 36px);
+    				white-space: nowrap;
+    				right: 36px;
+    				left: auto;
+			    }
+			    &.az-grouped-text {
+			    	vertical-align: middle;
+    				padding: 0px 2.5px;
+    				position: inherit;
+			    }
+    		}
+		}
+		.options:nth-last-child(1){
+    		border-bottom: none;
+		}
+
+	}
+	.az-done-sheet {
+		.action-sheet-title {
+			text-align: center;
+		}
+		.button {
+			background: transparent;
+		    color: $blue;
+		    font-size: 14px;
+		    min-height: 10px;
+		    text-align: center;
+		    &.activated {
+		    	background: transparent !important;
+		    	border : 0px !important;
+		    	color : $blue !important;
+		    }
+	    }
+	    .az-btn {
+	    	font-size: 64px;
+	    }
+    }
+	.az-inline-colon-input {
+		width : calc(100% - 10px);
+		input {
+			background : $light;
+		}
+	}
+	.az-input-box {
+		background: #fff;
+	    height: 34px;
+	    vertical-align: middle;
+	    border-radius: 4px;
+	}
+	.az-line-actionsheet {
+		.action-sheet-title {
+			font-size : 14px;
+			border-bottom : 2px solid #bcbcbc;
+			text-align: center;
+		}
+		.action-sheet-option {
+			background: #fff;
+	    	border: 1px solid #eee;
+	    	color: $blue;
+	    	height: 48px;
+    		text-align: center;
+    		font-weight: bold;
+		}
+		
+	    .action-sheet-option:nth-child(even){
+			background : #eee;
+		}
+		.action-sheet-cancel {
+			.button {
+				background : #fff;
+				color : #e64545
+			}
+		}
+		.action-sheet-options {
+			max-height : 202px;
+			height : auto;
+			overflow : scroll;
+		}
+	}
+
+	.az-inline-round-actionsheet {
+		text-align : center;
+		.action-sheet-options{
+			padding : 10px 0px;
+			.action-sheet-option {
+				color: $blue;
+			    text-align: center;
+			    display: inline-block;
+			    background: $light;
+			    border-radius: 50%;
+			    width: 25vw;
+			    height: 25vw;
+			    margin: 1vw 2.5vw;
+			    box-shadow: 0 0 16px 0 #ccc;
+			    max-width: 100px;
+	    		max-height: 100px;
+	    		font-size : 14px;
+			}
+		}
+	}
+
+	.no-padding {
+		padding : 0px !important;
+	}
+	.az-modal-round-button {
+		height: 90px;
+	    width: 90px;
+	    border-radius: 50%;
+	    color: $blue;
+	    background: $light;
+	    margin: auto;
+	    font-size: 16px;
+	    font-weight: bold;
+	    &.blue-button {
+	    	background: $blue;
+	    	color: $light;
+	    }
+	}
+	.az-shrink-row {
+		width : 67%;
+		margin : auto;
+	}
+	.az-fade-in {
+	  opacity: 1 !important;
+	  transition: opacity 2s ease-in-out;
+	  -moz-transition: opacity 2s ease-in-out;
+	  -webkit-transition: opacity 2s ease-in-out;
+	  -o-transition: opacity 2s ease-in-out;
+	}
+	  
+  .az-half-opacity {
+  	opacity : .5;
+  }
+  .az-label {
+  	font-size : 16px;
+  	color : #fff;
+  }
+  .az-align-right {
+  	text-align: right;
+  }
+  .az-align-initial {
+  	text-align:initial;
+  }
+  .az-direction-rtl-force {
+	direction : rtl;
+  }
+  .az-collapse-wrapper {
+  	color : $blue;
+  	font-size : 16px;
+	  .az-collapse-inline-text {
+	  	width: calc(100% - 52px);
+	    display: inline-block;
+	    vertical-align: middle;
+	  }
+	  .az-collapse-inline-icon {
+	  	display: inline-block;
+	    font-size: 16px;
+	    vertical-align: top;
+	    width: 16px;
+	    text-align: center;
+	    &.F-24 {
+	    	font-size : 24px;
+	    	width: 24px;
+	    }
+	  }
+  }
+  .az-collapse {
+  	height : 0px;
+  	overflow : hidden;
+  	padding : 0px !important;
+  }
+
+  .az-collapse-feedback {
+  	height : 85px;
+  	overflow : hidden;
+  }
+
+  .az-inline-scroll {
+    overflow: scroll;
+    width: 100%;
+    white-space: nowrap;
+  }
+  .az-no-items {
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+    font-style: italic;
+    padding: 5px;
+  }
+  .toggle input:checked+.track {
+  	background : $blue;
+  	border-color: $blue;
+  }
+  .az-toggle {
+  	margin : 0px;
+  	float: right;
+  	.track {
+	  	width: 44px;
+	    height: 24px;
+	    .handle {
+	    	width : 20px;
+	    	height : 20px;
+	    	border-radius : 20px;
+	    }
+  	}
+  }
+
+  .az-click-btn {
+  	background : transparent;
+  	border : 0px;
+  }
+  .az-tab-wrapper {
+  	.col {
+  		.button {
+  			background: rgba(0,32,96,.75);
+  		}
+  		.az-tab-button {
+  			.az-inline-block {
+  				color : #aaa;
+  			}
+  		}
+  		&.az-active {
+  			.button {
+  				background: rgba(0,32,96,1);
+  			}
+  			.az-tab-button {
+	  			.az-inline-block {
+	  				color : #fff;
+	  			}
+  			}
+  		}
+  	}
+  }
+  .az-gradient {
+	background : linear-gradient(180deg, #debe47 0%, #fff9e5 100%)
+  }
+
+	.az-tab-button {
+		width : 100%;
+		border-radius : 0px;
+		border : none;
+		height : 44px;
+		border-width : 0px;
+		padding : 0px
+	}
+
+	.header-back-button {
+		font-size: 36px;
+	}
+
+	.az-direction-initial {
+		direction : initial;
+	}
+	
+	.az-display-none {
+		display : none !important;
+	}
+
+}
+
+// end of initial open
+
+.az-body.keyboard-open {
+	
+	.pull-down {
+        height: calc(100% - 44px);
+        &.pay-bill-page {
+        	height: calc(100% - 106px);
+        }
+    }
+	.hide-on-keyboard-open {
+		display : none !important;
+	}
+	.az-direction-initial {
+		direction : initial;
+	}
+	
+}
+
+.az-body.platform-android {
+	.az-side-menu-content {
+		background-size: 100% 100%;
+	}
+}
