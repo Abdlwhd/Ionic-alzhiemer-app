@@ -1,0 +1,12 @@
+<ion-view>
+	<ion-content class="az-direction-rtl">
+        <header icon="ion-heart" label="{{'COMMON.YOGA' | translate}}"></header>
+        <input class="az-search-input" placeholder="{{'COMMON.SEARCH' | translate}}" ng-model="yogaCtrl.search" ng-change="yogaCtrl.change(yogaCtrl.search)" ng-blur="yogaCtrl.printValue()"/>
+        <div ng-repeat="item in yogaCtrl.items | filter : {title: yogaCtrl.search}">
+            <div class="az-info-block">
+                <div ng-bind="item.title" ng-click="yogaCtrl.showDetails(item)"></div>
+                <div class="az-chevron"><span class="ion-chevron-right"></span></div>
+            </div>
+        </div>
+	</ion-content>
+</ion-view>

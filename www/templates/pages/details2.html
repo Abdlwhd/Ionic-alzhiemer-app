@@ -1,0 +1,36 @@
+<ion-view>
+	<ion-content>
+        <header icon="ion-aperture" label="{{details2Ctrl.item.title}}"></header>
+        
+       
+        <iframe width=100%  height="220" allowfullscreen ng-src= "{{trustSrcurl(details2Ctrl.item.url)}}"></iframe>
+        
+
+
+        <div class="detail2" ng-show="language === 'en'" ng-bind="details2Ctrl.item.desc" ></div>
+        <br>
+       <div><ol>
+              <lh class="head">{{details2Ctrl.item.Subtitle1}}</lh>
+               <li class="detail">{{details2Ctrl.item.descEN}}</li>
+               <li class="detail">{{details2Ctrl.item.desc2EN}}</li>
+               <li class="detail">{{details2Ctrl.item.desc3EN}}</li>
+             </ol></div>
+             <br>
+             <div><ol>
+                <lh class="head">{{details2Ctrl.item.Subtitle2}}</lh>
+                 <li class="detail">{{details2Ctrl.item.descEN}}</li>
+                 <li class="detail">{{details2Ctrl.item.desc2EN}}</li>
+                 <li class="detail">{{details2Ctrl.item.desc3EN}}</li>
+               </ol></div>
+               <br>
+               <div><ol>
+                <lh class="head">{{details2Ctrl.item.Subtitle3}}</lh>
+                 <li class="detail">{{details2Ctrl.item.descEN}}</li>
+                 <li class="detail">{{details2Ctrl.item.desc2EN}}</li>
+                 <li class="detail">{{details2Ctrl.item.desc3EN}}</li>
+               </ol></div>
+               
+             <div ng-show="language === 'ar'" ng-bind="details2Ctrl.item.descAR"></div>
+             
+	</ion-content>
+</ion-view>

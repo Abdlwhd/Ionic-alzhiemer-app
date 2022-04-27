@@ -1,0 +1,12 @@
+<ion-view>
+	<ion-content class="az-direction-rtl">
+        <header icon="ion-aperture" label="{{'COMMON.INFO' | translate}}"></header>
+        <input class="az-search-input" placeholder="{{'COMMON.SEARCH' | translate}}" ng-model="info2Ctrl.search" ng-change="info2Ctrl.change(info2Ctrl.search)" ng-blur="info2Ctrl.printValue()"/>
+        <div ng-repeat="item in info2Ctrl.items | filter : {title: info2Ctrl.search}">
+            <div class="az-info-block">
+                <div ng-bind="item.title" ng-click="info2Ctrl.showDetails(item)"></div>
+                <div class="az-chevron"><span class="ion-chevron-right"></span></div>
+            </div>
+        </div>
+	</ion-content>
+</ion-view>

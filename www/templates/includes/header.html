@@ -1,0 +1,18 @@
+<div class="row az-header-wrapper">
+	
+	<div class="col col-10 col-center animated slideInLeft" ng-click="openSidemenu()">
+		<div class="menu-icon-wrapper az-align-center">
+			<div class="menu-icon ion-navicon-round"></div>
+		</div>
+	</div>
+	<div class="col col-80 col-center az-align-center">
+		<span ng-if="icon" class="animated tada {{icon}}"></span>
+		<img ng-if="imgSrc && label" class="img-wrapper" width="32px" height="32px" ng-src="{{imgSrc}}" ng-class="cssClassIcon"/>
+		<img ng-if="imgSrc && !label" class="img-wrapper" width="auto" height="32px" ng-src="{{imgSrc}}" ng-class="cssClassIcon"/>
+		<div class="header-label animated fadeIn" ng-class="cssClass" ng-bind="label"></div>
+	</div>
+	<div class="col col-10 col-center az-align-center animated slideInRight" ng-click="goBack()">
+		<div class="header-back-button ion-android-arrow-dropleft-circle"></div>
+	</div>
+	
+</div>

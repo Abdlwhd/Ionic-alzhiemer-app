@@ -1,0 +1,29 @@
+<ion-view >
+	<ion-content>
+                <header icon="ion-aperture" label="{{detailsCtrl.item.title}}"></header>
+        
+        <div style="text-align: center;">
+                <img style="width: 100%;padding: 8px;" ng-class="{'az-img-music' :detailsCtrl.item.isMusic}" ng-src="{{detailsCtrl.item.img}}"/>
+        </div>
+
+        <div ng-if="detailsCtrl.item.isMusic" style="text-align: center;">
+                <audio controls style="width: calc(100% - 16px);
+                margin: 8px;">
+                        <source ng-src="{{detailsCtrl.item.url}}"></source>
+                </audio>
+
+                
+        </div>
+         <div class="detail2" ng-show="language === 'en'" ng-bind="detailsCtrl.item.desc" ></div>
+         <br>
+        <div><ol>
+               <lh class="head">{{detailsCtrl.item.Subtitle}}</lh>
+                <li class="detail">{{detailsCtrl.item.descEN}}</li>
+                <li class="detail">{{detailsCtrl.item.desc2EN}}</li>
+                <li class="detail">{{detailsCtrl.item.desc3EN}}</li>
+              </ol></div>
+        <!--<div ng-show="language === 'en'" ng-bind="detailsCtrl.item.descEN" ></div>-->
+        <div ng-show="language === 'ar'" ng-bind="detailsCtrl.item.descAR"></div>
+        
+	</ion-content>
+</ion-view>

@@ -1,0 +1,12 @@
+<ion-view>
+	<ion-content  class="az-direction-rtl">
+		<header icon="ion-settings" label="{{'COMMON.SETTINGS' | translate}}"></header>
+        
+        <div  class="setting" >
+            <img src="img/settings.png">
+            <p class="subtitle">Change language</p>
+        <button class="button button-stable" ng-if="language=='ar'" ng-click="indexCtrl.switchLanguage()">English</button>
+        <button class="button button-stable" ng-if="language=='en'" ng-click="indexCtrl.switchLanguage()">Arabic</button>
+    </div>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,18 @@
+<ion-view>
+	<ion-content class="az-direction-rtl">
+        <header icon="ion-aperture" label="{{'COMMON.EXERCISE' | translate}}"></header>
+        <input class="az-search-input" placeholder="{{'COMMON.SEARCH' | translate}}" ng-model="infoCtrl.search" ng-change="infoCtrl.change(infoCtrl.search)" ng-blur="infoCtrl.printValue()"/>
+        <div ng-repeat="item in infoCtrl.items | filter : {title: infoCtrl.search}"class="az-music-wrapper2">
+            <!-- <div class="az-info-block">
+                <div ng-bind="item.title" ng-click="infoCtrl.showDetails(item)"></div>
+                <div class="az-chevron"><span class="ion-chevron-right"></span></div>
+            </div>
+        </div> -->
+        <div style="border: 1px solid #ededed; border-radius: 8px; padding: 8px;" ng-click="infoCtrl.showDetails(item)">
+            <img ng-src="{{item.img}}"/>
+            <div class="az-label">
+                <div ng-bind="item.title" ng-click="infoCtrl.showDetails(track)"></div>
+            </div>
+        </div>       
+	</ion-content>
+</ion-view>
