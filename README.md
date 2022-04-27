@@ -14,11 +14,11 @@ This is a simple hybrid mobile application for assisting Alzheimer patients. The
 * Run in cmd: ``` ionic serve ``` 
 
 # Preview of the app
-![Home page](imgs/home_page.PNG)
-![Information feature](imgs/info_page.PNG)
-![App side menu](imgs/side_menu.PNG)
-![Music therapy](imgs/music_therapy.PNG)
-![Exercises](imgs/aerobic_exercise.PNG)
-![Yoga sessions](imgs/yoga_page.PNG)
-![Comparing Test results](imgs/translation_setting.PNG)
+![Home page](imgs/home_page.png)
+![Information feature](imgs/info_page.png)
+![App side menu](imgs/side_menu.png)
+![Music therapy](imgs/music_therapy.png)
+![Exercises](imgs/aerobic_exercise.png)
+![Yoga sessions](imgs/yoga_page.png)
+![Comparing Test results](imgs/translation_setting.png)
 
