@@ -21,4 +21,9 @@ This is a simple hybrid mobile application for assisting Alzheimer patients. The
 ![Exercises](imgs/aerobic_exercise.png)</br>
 ![Yoga sessions](imgs/yoga_page.png)<br/>
 ![Comparing Test results](imgs/translation_setting.png)</br>
-
+# Tools and frameworks Used
+* visual code
+* google chrome
+* node js
+* AngularJS
+* Ionic
